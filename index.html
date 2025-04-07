@@ -41,8 +41,6 @@
   <link rel="icon" href="favicon.8de18.ico"/>
 
 
-
-
   <script 
     async 
     src="https://tganalytics.xyz/index.js" 
@@ -52,11 +50,16 @@
   <script>
       function initAnalytics() {
           // console.log("✅ Telegram Analytics SDK 已加载");
+          // window.telegramAnalytics.init({
+          //     token: 'eyJhcHBfbmFtZSI6IkRhZ291U29rb2JhbiIsImFwcF91cmwiOiJodHRwczovL3QubWUvQmVzdE9ubGluZUdhbWVCb3QiLCJhcHBfZG9tYWluIjoiaHR0cHM6Ly9saXBhbjQ3Ni5naXRodWIuaW8vU29rb2JhbkdhbWUvIn0=!rTMu+CulbxbCCsqYSoyqtivjzv4BX5bLay3NbYHVMug=', // 这里填入 "Your token for recording"
+          //     appName: 'SokobanGame', // 你的游戏名称
+          // });
+
           if (window.telegramAnalytics) {
             console.log("✅ Telegram Analytics SDK 已加载");
             window.telegramAnalytics.init({
-                token: '', // 这里填入 "Your token for recording"
-                appName: '', // 你的游戏名称
+                token: 'eyJhcHBfbmFtZSI6IkNhckVzY2FwZSIsImFwcF91cmwiOiJodHRwczovL3QubWUvQ2FyRXNjYXBlQm90IiwiYXBwX2RvbWFpbiI6Imh0dHBzOi8vbGlwYW40NzYuZ2l0aHViLmlvL3Rlc3RUaW5nQ2hhbmcvIn0=!9/rAxHGBwSrjbur5AUbA9omG276rlXxZ4srJZsQeC7o=', // 这里填入 "Your token for recording"
+                appName: 'CarEscape', // 你的游戏名称
             });
         } else {
             console.error("❌ Telegram Analytics SDK 未加载！");
@@ -89,6 +92,7 @@
   </script>
 
 
+
 </head>
 <body>
   <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
@@ -98,9 +102,9 @@
     </div>
   </div>
 
-<script src="src/settings.7157b.js" charset="utf-8"></script>
+<script src="src/settings.d0155.js" charset="utf-8"></script>
 
-<script src="main.f65d4.js" charset="utf-8"></script>
+<script src="main.3074a.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
